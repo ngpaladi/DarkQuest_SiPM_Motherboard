@@ -570,12 +570,30 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Part Number",
+          "name": "DigiKey Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -623,6 +641,22 @@
     [
       "80df74f6-3cfc-4d0d-aa5e-7f4ce133cc92",
       "Root"
+    ],
+    [
+      "04b54a03-e8b8-485f-9cef-cfe2ac827706",
+      "SiPM Support 0"
+    ],
+    [
+      "898d7b22-b421-4385-81e7-05d008f619ca",
+      "SiPM Support 1"
+    ],
+    [
+      "08cd7cb1-c7b4-4fcc-aa9b-769d16ff581c",
+      "SiPM Support 2"
+    ],
+    [
+      "b31655a4-f631-49d9-ad6f-22de4b82b0bd",
+      "SiPM Support 3"
     ]
   ],
   "text_variables": {}
