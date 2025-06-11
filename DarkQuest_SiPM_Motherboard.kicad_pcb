@@ -34,13 +34,15 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(39 "User.1" user "StencilEdge.Cuts")
+		(41 "User.2" user "FrameEdge.Cuts")
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_575555ff)
+			(layerselection 0x00000000_00000000_555557d5_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -72,7 +74,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -9706,6 +9708,42 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f088ab76-e089-4fd0-bbb0-61cd6b5101b7")
+	)
+	(gr_rect
+		(start 45 45)
+		(end 155 155)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "27e2f2f7-27e2-42f7-a7e2-f2f727e2f2f7")
+	)
+	(gr_rect
+		(start 40 40)
+		(end 160 160)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "ab81ae62-ce13-4ca1-a658-1dcc809f842d")
+	)
+	(gr_poly
+		(pts
+			(xy 150 50) (xy 145 50) (xy 145 47.5) (xy 55 47.5) (xy 55 50) (xy 50 50) (xy 50 55) (xy 47.5 55)
+			(xy 47.5 145) (xy 50 145) (xy 50 150) (xy 55 150) (xy 55 152.5) (xy 145 152.5) (xy 145 150) (xy 150 150)
+			(xy 150 145) (xy 152.5 145) (xy 152.5 55) (xy 150 55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "b3b21503-b3b2-4503-b3b2-1503b3b21503")
 	)
 	(gr_text "A"
 		(at 65.5 144 90)

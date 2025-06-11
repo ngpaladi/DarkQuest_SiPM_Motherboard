@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-05-19T01:06:40-04:00"
+    "CreationDate": "2025-06-11T08:09:27-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "quad_sipm_mmcx_9.1",
-      "GUID": "71756164-5f73-4697-906d-5f6d6d63785f",
+      "Name": "DarkQuest_SiPM_Motherboard",
+      "GUID": "4461726b-5175-4657-9374-5f5369504d5f",
       "Revision": "10"
     },
     "Size": {
@@ -34,38 +34,48 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "quad_sipm_mmcx_9.1-F_Cu.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-B_Cu.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-F_Silkscreen.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-B_Silkscreen.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-F_Mask.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-B_Mask.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "quad_sipm_mmcx_9.1-Edge_Cuts.gbr",
+      "Path": "DarkQuest_SiPM_Motherboard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DarkQuest_SiPM_Motherboard-StencilEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DarkQuest_SiPM_Motherboard-FrameEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
