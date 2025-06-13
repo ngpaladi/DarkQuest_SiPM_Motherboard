@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.2"
+      "Version": "9.0.1-9.0.1-0~ubuntu24.04.1"
     },
-    "CreationDate": "2025-06-11T08:09:27-04:00"
+    "CreationDate": "2025-06-12T19:46:07-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "DarkQuest_SiPM_Motherboard",
       "GUID": "4461726b-5175-4657-9374-5f5369504d5f",
-      "Revision": "10"
+      "Revision": "11"
     },
     "Size": {
       "X": 100.05,
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
+      "MinLineWidth": 0.635,
       "TrackToRegion": 1.016,
       "RegionToRegion": 1.016
     }
