@@ -67,6 +67,16 @@
       "Path": "DarkQuest_SiPM_Motherboard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DarkQuest_SiPM_Motherboard-StencilEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DarkQuest_SiPM_Motherboard-FrameEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
