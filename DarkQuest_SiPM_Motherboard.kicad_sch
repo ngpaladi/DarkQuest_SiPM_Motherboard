@@ -869,6 +869,38 @@
 		(color 0 0 0 0)
 		(uuid "ed4617f7-9532-474f-86a2-b89986f253a9")
 	)
+	(no_connect
+		(at 38.1 60.96)
+		(uuid "0c116d02-fb9f-4af4-a33a-d4cbda862351")
+	)
+	(no_connect
+		(at 38.1 66.04)
+		(uuid "6a9cbec8-7e9a-4b01-8152-5c12feef52c9")
+	)
+	(no_connect
+		(at 118.11 66.04)
+		(uuid "7fcb55a7-bf34-4dd0-bd27-9716ffaf197f")
+	)
+	(no_connect
+		(at 38.1 63.5)
+		(uuid "89fe39df-f518-4b1a-9a82-8aaae6f74aca")
+	)
+	(no_connect
+		(at 118.11 60.96)
+		(uuid "979daf7d-46e5-4572-90ea-7dec87c384e6")
+	)
+	(no_connect
+		(at 118.11 68.58)
+		(uuid "c64c5789-865f-4cc6-a3ab-4f5a5141164a")
+	)
+	(no_connect
+		(at 118.11 63.5)
+		(uuid "d0cd59ce-eac9-4aa3-8acf-35aa4b8c99d3")
+	)
+	(no_connect
+		(at 38.1 68.58)
+		(uuid "f6c1ac91-f91e-420a-8d64-bc1e41722635")
+	)
 	(wire
 		(pts
 			(xy 50.8 106.68) (xy 50.8 102.87)
@@ -1170,24 +1202,14 @@
 		(uuid "384f0f9d-c620-44ff-9c78-3fc0d2a9ac98")
 	)
 	(label "K2"
-		(at 38.1 63.5 0)
+		(at 118.11 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "48528505-a636-4ae0-9198-72aa691b0ae5")
-	)
-	(label "A1"
-		(at 38.1 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e8d489d-1d40-41e8-855e-f93866d4de89")
+		(uuid "40f991df-72d7-4271-b483-0462dc8d5576")
 	)
 	(label "A0"
 		(at 38.1 71.12 0)
@@ -1198,6 +1220,36 @@
 			(justify left bottom)
 		)
 		(uuid "5fea74a2-a463-4d5a-b798-f11813a6f715")
+	)
+	(label "A2"
+		(at 118.11 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65065f69-231f-48d7-8b61-7229540528ac")
+	)
+	(label "K1"
+		(at 38.1 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99c43113-5e15-4bf0-8e50-a9a3aaaed7b7")
+	)
+	(label "K3"
+		(at 118.11 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e862e6e-f96c-4416-b106-e1d48c559d83")
 	)
 	(label "A3"
 		(at 50.8 100.33 180)
@@ -1210,34 +1262,14 @@
 		(uuid "a9e23f06-1783-43cf-a771-1c9dda5c919d")
 	)
 	(label "A3"
-		(at 38.1 55.88 0)
+		(at 118.11 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "abfc9b6b-1083-49c8-9b9b-6966ef30ed2a")
-	)
-	(label "K3"
-		(at 38.1 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b28661ed-28f0-4c44-8387-ae4c1ac15e58")
-	)
-	(label "K1"
-		(at 38.1 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce156748-692a-484e-9af3-2af8044c9c1a")
+		(uuid "c216b6ea-6154-4e7a-9ed0-e706a5e365cf")
 	)
 	(label "K0"
 		(at 81.28 31.75 0)
@@ -1259,15 +1291,15 @@
 		)
 		(uuid "e96a9fdc-6710-46a8-9a20-28a78ce1787e")
 	)
-	(label "A2"
-		(at 38.1 66.04 0)
+	(label "A1"
+		(at 38.1 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f73750a7-5f19-41be-bcf8-f56959e53038")
+		(uuid "ff03e8d2-0f2a-493d-a772-5232c0be9229")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1812,7 +1844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 25.908 82.804 0)
 			(effects
 				(font
@@ -2022,6 +2054,72 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
+		(at 107.95 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d53de81-2604-4309-9cf6-de003eaf6530")
+		(property "Reference" "#PWR06"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 105.918 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1fbf27-3876-4e20-a529-4861506a0dba")
+		)
+		(instances
+			(project "DarkQuest_SiPM_Motherboard"
+				(path "/80df74f6-3cfc-4d0d-aa5e-7f4ce133cc92"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
 		(at 50.8 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2038,7 +2136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 48.768 43.434 0)
 			(effects
 				(font
@@ -2104,7 +2202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDB"
 			(at 48.768 112.014 0)
 			(effects
 				(font
@@ -2170,7 +2268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 48.768 66.294 0)
 			(effects
 				(font
@@ -2541,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDB"
 			(at 48.768 90.424 0)
 			(effects
 				(font
@@ -2584,6 +2682,95 @@
 			(project "DarkQuest_SiPM_Motherboard"
 				(path "/80df74f6-3cfc-4d0d-aa5e-7f4ce133cc92"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45_Shielded")
+		(at 107.95 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07fd018-cf16-4480-8244-e5db5efaf1e0")
+		(property "Reference" "J6"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45_Shielded"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RJJS-88-122-E7V-022:RJJS-88-122-E7V-022"
+			(at 107.95 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a2edf98d-c596-4c8d-b7eb-4c16970ab739")
+		)
+		(pin "4"
+			(uuid "14e41509-31fd-498e-bf6c-feab9204e413")
+		)
+		(pin "3"
+			(uuid "cc70c84b-dccf-4b42-9c03-3b95722e1220")
+		)
+		(pin "8"
+			(uuid "9573757e-3b62-454c-b051-9af06344fcaf")
+		)
+		(pin "SH"
+			(uuid "01044062-8623-4318-a465-0e177cff65f0")
+		)
+		(pin "2"
+			(uuid "b7a1ea98-0b29-432a-8308-b1ff22bb1b60")
+		)
+		(pin "7"
+			(uuid "5c52d61c-35e0-46ac-bd87-1d295e3566a5")
+		)
+		(pin "6"
+			(uuid "5f6200fb-4a29-4054-ab16-2d9c4c6b6b12")
+		)
+		(pin "1"
+			(uuid "933ddbe6-b526-41f9-ab68-e135e4c042e8")
+		)
+		(instances
+			(project "DarkQuest_SiPM_Motherboard"
+				(path "/80df74f6-3cfc-4d0d-aa5e-7f4ce133cc92"
+					(reference "J6")
 					(unit 1)
 				)
 			)
